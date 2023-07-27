@@ -1,7 +1,8 @@
-import React, { FC, useEffect, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 import { ITime } from './interface'
 import { fromUnixToChatTime } from '../../utils/fromUnixToChatTime'
 import { ReactComponent as ReadStatusIcon } from '../../assets/read-status.svg'
+import './time.scss'
 
 export const Time: FC<ITime> = (props: ITime) => {
     const { time, my = false } = props

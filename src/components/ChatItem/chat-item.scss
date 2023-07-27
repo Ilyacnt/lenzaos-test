@@ -1,0 +1,42 @@
+.component-chat-item {
+    display: flex;
+    gap: 16px;
+    background: #fff;
+    cursor: pointer;
+    padding: 12px 16px;
+    overflow: hidden;
+    width: 100%;
+
+    &:hover {
+        background: #201f1e0a;
+    }
+
+    &__selected,
+    &:active {
+        background: #407ec914;
+    }
+
+    &--info {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    &--head {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        gap: 3px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &--body {
+        width: 60%;
+        color: #605e5c;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

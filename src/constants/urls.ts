@@ -1,4 +1,6 @@
+const API_LENZAOS = 'https://api.lenzaos.com/'
+
 export const URLS = {
-    LIST: 'chat.list',
-    MESSAGES: 'chat.get'
+    LIST: API_LENZAOS + 'chat.list',
+    MESSAGES: API_LENZAOS + 'chat.get',
 }

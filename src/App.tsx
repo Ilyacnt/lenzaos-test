@@ -3,9 +3,9 @@ import './index.scss'
 
 function App() {
     return (
-        <div className="App">
+        <>
             <PageIndex />
-        </div>
+        </>
     )
 }
 
