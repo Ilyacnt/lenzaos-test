@@ -1,12 +1,12 @@
-import React from 'react';
-import {PageIndex} from "./pages/index";
+import { PageIndex } from './pages/index'
+import './index.scss'
 
 function App() {
-  return (
-    <div className="App">
-      <PageIndex />
-    </div>
-  );
+    return (
+        <div className="App">
+            <PageIndex />
+        </div>
+    )
 }
 
-export default App;
+export default App
